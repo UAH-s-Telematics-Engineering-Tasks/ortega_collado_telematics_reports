@@ -1,0 +1,73 @@
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 13:04:39 2020   PAGE     1
+
+                                    GSM_net                                     
+
+                       CALL SOURCES: BLOCKED CALL COUNTS                        
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                        CALLS    CALLS  BLOCK       HOPS
+  DESTINATION LIST                        ATTEMPTD  RETRY  PROB    AVG     MAX
+________________________________________  ________  _____  _____  ______  _____
+
+MSs / call Cell:
+  BTS                                         6602      0  0.072     1.0      1
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6602      0  0.072     1.0      1
+
+                                          ________  _____  _____  ______  _____
+  MSs (TOTAL)                                 6602      0  0.072     1.0      1
+
+                                          ________  _____  _____  ______  _____
+                                          ________  _____  _____  ______  _____
+  ** T O T A L S  **                          6602      0  0.072     1.0      1
+
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 13:04:39 2020   PAGE     2
+
+                                    GSM_net                                     
+
+                     CALL SOURCES: DISCONNECTED CALL COUNTS                     
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                           CALLS     CALLS    CALLS   CALLS
+  DESTINATION LIST                      PRI  ATTEMPTD  CARRIED   DISCON  REROUT
+______________________________________  ___  ________  ________  ______  ______
+
+MSs / call Cell:                          1
+  BTS                                            6602      6126       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6602      6126       0       0
+
+                                        ___  ________  ________  ______  ______
+  MSs (TOTAL)                                    6602      6126       0       0
+
+                                        ___  ________  ________  ______  ______
+                                        ___  ________  ________  ______  ______
+  ** T O T A L S  **                             6602      6126       0       0
+
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 13:04:39 2020   PAGE     3
+
+                                    GSM_net                                     
+
+                      CALL SOURCES: PREEMPTED CALL COUNTS                       
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                                CALLS     CALLS      CALLS
+  DESTINATION LIST                          PRI  ATTEMPTED  CARRIED   PREEMPTED
+__________________________________________  ___  _________  ________  _________
+
+MSs / call Cell:                              1
+  BTS                                                 6602      6126          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6602      6126          0
+
+                                            ___  _________  ________  _________
+  MSs (TOTAL)                                         6602      6126          0
+
+                                            ___  _________  ________  _________
+                                            ___  _________  ________  _________
+  ** T O T A L S  **                                  6602      6126          0

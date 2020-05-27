@@ -1,0 +1,508 @@
+GSM_SMS_Um	Wed Apr 15 11:43:09 2020
+Replication	Start Time	End Time
+1	60.0000000	660.00000
+2	720.00000	1320.000
+3	1380.000	1980.000
+4	2040.000	2640.000
+5	2700.000	3300.000
+6	3360.000	3960.000
+7	4020.000	4620.000
+8	4680.000	5280.000
+9	5340.000	5940.000
+10	6000.000	6600.000
+11	6660.000	7260.000
+12	7320.000	7920.000
+13	7980.000	8580.000
+14	8640.000	9240.000
+15	9300.000	9900.000
+16	9960.000	10560.000
+17	10620.000	11220.000
+18	11280.000	11880.000
+19	11940.000	12540.000
+20	12600.000	13200.000
+
+Title	Units	Rep	Min	Max	Mean	Standard Deviation	Sum	Sum of Squares	Count	Lower Limit	Upper Limit	Interval	Int. Min	Int. Max	Int. Mean	Int. Std Dev	Int. Sum	Int. Sum of Squares	Int. Count	Int. Lower Limit	Int. Upper Limit	
+Call Type Statistics from MSs to BTS	seconds	1	1.000000000	1.000000000	1.000000000	0.000000000	272.00000	272.00000	272													
+Call Type Statistics from MSs to BTS	seconds	2	1.000000000	1.000000000	1.000000000	0.000000000	266.00000	266.00000	266													
+Call Type Statistics from MSs to BTS	seconds	3	1.000000000	1.000000000	1.000000000	0.000000000	267.00000	267.00000	267													
+Call Type Statistics from MSs to BTS	seconds	4	1.000000000	1.000000000	1.000000000	0.000000000	286.00000	286.00000	286													
+Call Type Statistics from MSs to BTS	seconds	5	1.000000000	1.000000000	1.000000000	0.000000000	303.00000	303.00000	303													
+Call Type Statistics from MSs to BTS	seconds	6	1.000000000	1.000000000	1.000000000	0.000000000	300.00000	300.00000	300													
+Call Type Statistics from MSs to BTS	seconds	7	1.000000000	1.000000000	1.000000000	0.000000000	285.00000	285.00000	285													
+Call Type Statistics from MSs to BTS	seconds	8	1.000000000	1.000000000	1.000000000	0.000000000	289.00000	289.00000	289													
+Call Type Statistics from MSs to BTS	seconds	9	1.000000000	1.000000000	1.000000000	0.000000000	286.00000	286.00000	286													
+Call Type Statistics from MSs to BTS	seconds	10	1.000000000	1.000000000	1.000000000	0.000000000	253.00000	253.00000	253													
+Call Type Statistics from MSs to BTS	seconds	11	1.000000000	1.000000000	1.000000000	0.000000000	312.00000	312.00000	312													
+Call Type Statistics from MSs to BTS	seconds	12	1.000000000	1.000000000	1.000000000	0.000000000	291.00000	291.00000	291													
+Call Type Statistics from MSs to BTS	seconds	13	1.000000000	1.000000000	1.000000000	0.000000000	281.00000	281.00000	281													
+Call Type Statistics from MSs to BTS	seconds	14	1.000000000	1.000000000	1.000000000	0.000000000	258.00000	258.00000	258													
+Call Type Statistics from MSs to BTS	seconds	15	1.000000000	1.000000000	1.000000000	0.000000000	281.00000	281.00000	281													
+Call Type Statistics from MSs to BTS	seconds	16	1.000000000	1.000000000	1.000000000	0.000000000	292.00000	292.00000	292													
+Call Type Statistics from MSs to BTS	seconds	17	1.000000000	1.000000000	1.000000000	0.000000000	268.00000	268.00000	268													
+Call Type Statistics from MSs to BTS	seconds	18	1.000000000	1.000000000	1.000000000	0.000000000	294.00000	294.00000	294													
+Call Type Statistics from MSs to BTS	seconds	19	1.000000000	1.000000000	1.000000000	0.000000000	286.00000	286.00000	286													
+Call Type Statistics from MSs to BTS	seconds	20	1.000000000	1.000000000	1.000000000	0.000000000	309.00000	309.00000	309													
+Call Type Statistics from MSs to BTS	seconds	0	1.000000000	1.000000000	1.000000000	0.000000000	20.0000000	20.0000000	20	1.000000000	1.000000000											
+Call Type Statistics from MSs to BTS	seconds	-1	1.000000000	1.000000000	1.000000000	0.000000000	5679.000	5679.000	5679													
+Message Delay from BTSs (SMSs) to BSC	seconds	1	0.031250000	0.075842752	0.032316663	0.004747624	43.1427454	1.424320390	1335													
+Message Delay from BTSs (SMSs) to BSC	seconds	2	0.031250000	0.078352543	0.032450138	0.005000117	42.7043814	1.418664608	1316													
+Message Delay from BTSs (SMSs) to BSC	seconds	3	0.031250000	0.076506202	0.032510469	0.005128173	42.4261621	1.413613522	1305													
+Message Delay from BTSs (SMSs) to BSC	seconds	4	0.031250000	0.094742919	0.032187401	0.004816131	42.4229950	1.396057126	1318													
+Message Delay from BTSs (SMSs) to BSC	seconds	5	0.031250000	0.063472828	0.032268925	0.004510352	43.9502761	1.445935719	1362													
+Message Delay from BTSs (SMSs) to BSC	seconds	6	0.031250000	0.084533144	0.032423759	0.005043355	43.5775319	1.447132603	1344													
+Message Delay from BTSs (SMSs) to BSC	seconds	7	0.031250000	0.071733035	0.032425237	0.004951449	41.3746019	1.372864757	1276													
+Message Delay from BTSs (SMSs) to BSC	seconds	8	0.031250000	0.080856647	0.032566239	0.005104004	42.7269056	1.425633347	1312													
+Message Delay from BTSs (SMSs) to BSC	seconds	9	0.031250000	0.091326813	0.032555974	0.005647791	41.8995388	1.405132449	1287													
+Message Delay from BTSs (SMSs) to BSC	seconds	10	0.031250000	0.086898233	0.032710262	0.005822101	45.3691336	1.531051199	1387													
+Message Delay from BTSs (SMSs) to BSC	seconds	11	0.031250000	0.090089295	0.032485918	0.005372076	43.4661585	1.450651681	1338													
+Message Delay from BTSs (SMSs) to BSC	seconds	12	0.031250000	0.087920462	0.032509099	0.005359937	42.9445198	1.434038555	1321													
+Message Delay from BTSs (SMSs) to BSC	seconds	13	0.031250000	0.077871947	0.032435456	0.005053555	42.4580117	1.410574755	1309													
+Message Delay from BTSs (SMSs) to BSC	seconds	14	0.031250000	0.086329818	0.032361834	0.004958198	43.3001344	1.434164804	1338													
+Message Delay from BTSs (SMSs) to BSC	seconds	15	0.031250000	0.072667604	0.032539287	0.005232420	43.4724872	1.451141028	1336													
+Message Delay from BTSs (SMSs) to BSC	seconds	16	0.031250000	0.080153098	0.032301842	0.004842596	42.0893007	1.390118268	1303													
+Message Delay from BTSs (SMSs) to BSC	seconds	17	0.031250000	0.090364302	0.032591239	0.005677928	40.8042318	1.370223550	1252													
+Message Delay from BTSs (SMSs) to BSC	seconds	18	0.031250000	0.090410825	0.032443339	0.005112514	40.9110510	1.360250874	1261													
+Message Delay from BTSs (SMSs) to BSC	seconds	19	0.031250000	0.063687408	0.032230638	0.004355193	43.5435918	1.429063110	1351													
+Message Delay from BTSs (SMSs) to BSC	seconds	20	0.031250000	0.098078166	0.032621744	0.005724102	43.9414898	1.477582972	1347													
+Message Delay from BTSs (SMSs) to BSC	seconds	0	0.032187401	0.032710262	0.032446773	0.000137085	0.648935465	0.021056219	20	0.032382616	0.032510931											
+Message Delay from BTSs (SMSs) to BSC	seconds	-1	0.031250000	0.098078166	0.032446596	0.005138016	856.52525	28.4882153	26398													
+Packet Delay from BTSs (SMSs) to BSC	seconds	1	0.031250000	0.075842752	0.032316663	0.004747624	43.1427454	1.424320390	1335													
+Packet Delay from BTSs (SMSs) to BSC	seconds	2	0.031250000	0.078352543	0.032450138	0.005000117	42.7043814	1.418664608	1316													
+Packet Delay from BTSs (SMSs) to BSC	seconds	3	0.031250000	0.076506202	0.032510469	0.005128173	42.4261621	1.413613522	1305													
+Packet Delay from BTSs (SMSs) to BSC	seconds	4	0.031250000	0.094742919	0.032187401	0.004816131	42.4229950	1.396057126	1318													
+Packet Delay from BTSs (SMSs) to BSC	seconds	5	0.031250000	0.063472828	0.032268925	0.004510352	43.9502761	1.445935719	1362													
+Packet Delay from BTSs (SMSs) to BSC	seconds	6	0.031250000	0.084533144	0.032423759	0.005043355	43.5775319	1.447132603	1344													
+Packet Delay from BTSs (SMSs) to BSC	seconds	7	0.031250000	0.071733035	0.032425237	0.004951449	41.3746019	1.372864757	1276													
+Packet Delay from BTSs (SMSs) to BSC	seconds	8	0.031250000	0.080856647	0.032566239	0.005104004	42.7269056	1.425633347	1312													
+Packet Delay from BTSs (SMSs) to BSC	seconds	9	0.031250000	0.091326813	0.032555974	0.005647791	41.8995388	1.405132449	1287													
+Packet Delay from BTSs (SMSs) to BSC	seconds	10	0.031250000	0.086898233	0.032710262	0.005822101	45.3691336	1.531051199	1387													
+Packet Delay from BTSs (SMSs) to BSC	seconds	11	0.031250000	0.090089295	0.032485918	0.005372076	43.4661585	1.450651681	1338													
+Packet Delay from BTSs (SMSs) to BSC	seconds	12	0.031250000	0.087920462	0.032509099	0.005359937	42.9445198	1.434038555	1321													
+Packet Delay from BTSs (SMSs) to BSC	seconds	13	0.031250000	0.077871947	0.032435456	0.005053555	42.4580117	1.410574755	1309													
+Packet Delay from BTSs (SMSs) to BSC	seconds	14	0.031250000	0.086329818	0.032361834	0.004958198	43.3001344	1.434164804	1338													
+Packet Delay from BTSs (SMSs) to BSC	seconds	15	0.031250000	0.072667604	0.032539287	0.005232420	43.4724872	1.451141028	1336													
+Packet Delay from BTSs (SMSs) to BSC	seconds	16	0.031250000	0.080153098	0.032301842	0.004842596	42.0893007	1.390118268	1303													
+Packet Delay from BTSs (SMSs) to BSC	seconds	17	0.031250000	0.090364302	0.032591239	0.005677928	40.8042318	1.370223550	1252													
+Packet Delay from BTSs (SMSs) to BSC	seconds	18	0.031250000	0.090410825	0.032443339	0.005112514	40.9110510	1.360250874	1261													
+Packet Delay from BTSs (SMSs) to BSC	seconds	19	0.031250000	0.063687408	0.032230638	0.004355193	43.5435918	1.429063110	1351													
+Packet Delay from BTSs (SMSs) to BSC	seconds	20	0.031250000	0.098078166	0.032621744	0.005724102	43.9414898	1.477582972	1347													
+Packet Delay from BTSs (SMSs) to BSC	seconds	0	0.032187401	0.032710262	0.032446773	0.000137085	0.648935465	0.021056219	20	0.032382616	0.032510931											
+Packet Delay from BTSs (SMSs) to BSC	seconds	-1	0.031250000	0.098078166	0.032446596	0.005138016	856.52525	28.4882153	26398													
+
+Message destination counters
+Message name	Source	Destination	Replication	Max packet size	Max window size	Pkts created	Pkts delivered	Pkts retransmitted	Pkts dropped	Acks created	Acks delivered	Acks retransmitted	Acks dropped	Acks blocked	Window resets	Retransmissions	Congestion avoidance	Late packet retrans	Late ack retrans	DE0 created	DE0 dropped	DE1 created	DE1 dropped	Congested packets
+SMSs	BTSs	BSC	1	64000	1	1335	1335	0	0	0	0	0	0	0	0	0	0	0	0	1335	0	0	0	0
+SMSs	BTSs	BSC	2	64000	1	1316	1316	0	0	0	0	0	0	0	0	0	0	0	0	1316	0	0	0	0
+SMSs	BTSs	BSC	3	64000	1	1305	1305	0	0	0	0	0	0	0	0	0	0	0	0	1305	0	0	0	0
+SMSs	BTSs	BSC	4	64000	1	1318	1318	0	0	0	0	0	0	0	0	0	0	0	0	1318	0	0	0	0
+SMSs	BTSs	BSC	5	64000	1	1362	1362	0	0	0	0	0	0	0	0	0	0	0	0	1362	0	0	0	0
+SMSs	BTSs	BSC	6	64000	1	1344	1344	0	0	0	0	0	0	0	0	0	0	0	0	1344	0	0	0	0
+SMSs	BTSs	BSC	7	64000	1	1276	1276	0	0	0	0	0	0	0	0	0	0	0	0	1276	0	0	0	0
+SMSs	BTSs	BSC	8	64000	1	1312	1312	0	0	0	0	0	0	0	0	0	0	0	0	1312	0	0	0	0
+SMSs	BTSs	BSC	9	64000	1	1287	1287	0	0	0	0	0	0	0	0	0	0	0	0	1287	0	0	0	0
+SMSs	BTSs	BSC	10	64000	1	1387	1387	0	0	0	0	0	0	0	0	0	0	0	0	1387	0	0	0	0
+SMSs	BTSs	BSC	11	64000	1	1338	1338	0	0	0	0	0	0	0	0	0	0	0	0	1338	0	0	0	0
+SMSs	BTSs	BSC	12	64000	1	1321	1321	0	0	0	0	0	0	0	0	0	0	0	0	1321	0	0	0	0
+SMSs	BTSs	BSC	13	64000	1	1309	1309	0	0	0	0	0	0	0	0	0	0	0	0	1309	0	0	0	0
+SMSs	BTSs	BSC	14	64000	1	1338	1338	0	0	0	0	0	0	0	0	0	0	0	0	1338	0	0	0	0
+SMSs	BTSs	BSC	15	64000	1	1335	1336	0	0	0	0	0	0	0	0	0	0	0	0	1335	0	0	0	0
+SMSs	BTSs	BSC	16	64000	1	1303	1303	0	0	0	0	0	0	0	0	0	0	0	0	1303	0	0	0	0
+SMSs	BTSs	BSC	17	64000	1	1252	1252	0	0	0	0	0	0	0	0	0	0	0	0	1252	0	0	0	0
+SMSs	BTSs	BSC	18	64000	1	1261	1261	0	0	0	0	0	0	0	0	0	0	0	0	1261	0	0	0	0
+SMSs	BTSs	BSC	19	64000	1	1351	1351	0	0	0	0	0	0	0	0	0	0	0	0	1351	0	0	0	0
+SMSs	BTSs	BSC	20	64000	1	1347	1347	0	0	0	0	0	0	0	0	0	0	0	0	1347	0	0	0	0
+
+Counters for circuit switched calls
+Call Name	Source	Destination	Replication	Attempts	Blocked	Carried	Disconnected	Preempted	Rerouted	Retries
+Call	MSs	BTS	1	289	17	272	0	0	0	0
+Call	MSs	BTS	2	273	7	266	0	0	0	0
+Call	MSs	BTS	3	274	7	267	0	0	0	0
+Call	MSs	BTS	4	302	16	286	0	0	0	0
+Call	MSs	BTS	5	319	16	303	0	0	0	0
+Call	MSs	BTS	6	308	8	300	0	0	0	0
+Call	MSs	BTS	7	302	17	285	0	0	0	0
+Call	MSs	BTS	8	306	17	289	0	0	0	0
+Call	MSs	BTS	9	293	7	286	0	0	0	0
+Call	MSs	BTS	10	265	12	253	0	0	0	0
+Call	MSs	BTS	11	339	27	312	0	0	0	0
+Call	MSs	BTS	12	307	16	291	0	0	0	0
+Call	MSs	BTS	13	296	15	281	0	0	0	0
+Call	MSs	BTS	14	270	12	258	0	0	0	0
+Call	MSs	BTS	15	312	31	281	0	0	0	0
+Call	MSs	BTS	16	311	19	292	0	0	0	0
+Call	MSs	BTS	17	282	14	268	0	0	0	0
+Call	MSs	BTS	18	304	10	294	0	0	0	0
+Call	MSs	BTS	19	300	14	286	0	0	0	0
+Call	MSs	BTS	20	317	8	309	0	0	0	0
+
+Link counters
+Link name	Replication	Calls attempted	Calls blocked - failures	Calls blocked - traffic	Calls carried	Calls disconnected	Calls preempted
+Um	1	289	0	17	272	0	0
+Abis	1	0	0	0	0	0	0
+Um	2	273	0	7	266	0	0
+Abis	2	0	0	0	0	0	0
+Um	3	274	0	7	267	0	0
+Abis	3	0	0	0	0	0	0
+Um	4	302	0	16	286	0	0
+Abis	4	0	0	0	0	0	0
+Um	5	319	0	16	303	0	0
+Abis	5	0	0	0	0	0	0
+Um	6	308	0	8	300	0	0
+Abis	6	0	0	0	0	0	0
+Um	7	302	0	17	285	0	0
+Abis	7	0	0	0	0	0	0
+Um	8	306	0	17	289	0	0
+Abis	8	0	0	0	0	0	0
+Um	9	293	0	7	286	0	0
+Abis	9	0	0	0	0	0	0
+Um	10	265	0	12	253	0	0
+Abis	10	0	0	0	0	0	0
+Um	11	339	0	27	312	0	0
+Abis	11	0	0	0	0	0	0
+Um	12	307	0	16	291	0	0
+Abis	12	0	0	0	0	0	0
+Um	13	296	0	15	281	0	0
+Abis	13	0	0	0	0	0	0
+Um	14	270	0	12	258	0	0
+Abis	14	0	0	0	0	0	0
+Um	15	312	0	31	281	0	0
+Abis	15	0	0	0	0	0	0
+Um	16	311	0	19	292	0	0
+Abis	16	0	0	0	0	0	0
+Um	17	282	0	14	268	0	0
+Abis	17	0	0	0	0	0	0
+Um	18	304	0	10	294	0	0
+Abis	18	0	0	0	0	0	0
+Um	19	300	0	14	286	0	0
+Abis	19	0	0	0	0	0	0
+Um	20	317	0	8	309	0	0
+Abis	20	0	0	0	0	0	0
+
+Node counters
+Node Name	Replication	Number in group	Calls attempted	Calls blocked: failures	Calls blocked: traffic	Calls carried	Calls disconnected	Calls preempted	Disk accesses	Write: too large	Read: no file	Read: too large
+MSs	1	1	289	0	0	289	0	0	0	0	0	0
+BTS	1	1	272	0	0	272	0	0	0	0	0	0
+BSC	1	1	0	0	0	0	0	0	0	0	0	0
+BTSs	1	1	0	0	0	0	0	0	0	0	0	0
+MSs	2	1	273	0	0	273	0	0	0	0	0	0
+BTS	2	1	266	0	0	266	0	0	0	0	0	0
+BSC	2	1	0	0	0	0	0	0	0	0	0	0
+BTSs	2	1	0	0	0	0	0	0	0	0	0	0
+MSs	3	1	274	0	0	274	0	0	0	0	0	0
+BTS	3	1	267	0	0	267	0	0	0	0	0	0
+BSC	3	1	0	0	0	0	0	0	0	0	0	0
+BTSs	3	1	0	0	0	0	0	0	0	0	0	0
+MSs	4	1	302	0	0	302	0	0	0	0	0	0
+BTS	4	1	286	0	0	286	0	0	0	0	0	0
+BSC	4	1	0	0	0	0	0	0	0	0	0	0
+BTSs	4	1	0	0	0	0	0	0	0	0	0	0
+MSs	5	1	319	0	0	319	0	0	0	0	0	0
+BTS	5	1	303	0	0	303	0	0	0	0	0	0
+BSC	5	1	0	0	0	0	0	0	0	0	0	0
+BTSs	5	1	0	0	0	0	0	0	0	0	0	0
+MSs	6	1	308	0	0	308	0	0	0	0	0	0
+BTS	6	1	300	0	0	300	0	0	0	0	0	0
+BSC	6	1	0	0	0	0	0	0	0	0	0	0
+BTSs	6	1	0	0	0	0	0	0	0	0	0	0
+MSs	7	1	302	0	0	302	0	0	0	0	0	0
+BTS	7	1	285	0	0	285	0	0	0	0	0	0
+BSC	7	1	0	0	0	0	0	0	0	0	0	0
+BTSs	7	1	0	0	0	0	0	0	0	0	0	0
+MSs	8	1	306	0	0	306	0	0	0	0	0	0
+BTS	8	1	289	0	0	289	0	0	0	0	0	0
+BSC	8	1	0	0	0	0	0	0	0	0	0	0
+BTSs	8	1	0	0	0	0	0	0	0	0	0	0
+MSs	9	1	293	0	0	293	0	0	0	0	0	0
+BTS	9	1	286	0	0	286	0	0	0	0	0	0
+BSC	9	1	0	0	0	0	0	0	0	0	0	0
+BTSs	9	1	0	0	0	0	0	0	0	0	0	0
+MSs	10	1	265	0	0	265	0	0	0	0	0	0
+BTS	10	1	253	0	0	253	0	0	0	0	0	0
+BSC	10	1	0	0	0	0	0	0	0	0	0	0
+BTSs	10	1	0	0	0	0	0	0	0	0	0	0
+MSs	11	1	339	0	0	339	0	0	0	0	0	0
+BTS	11	1	312	0	0	312	0	0	0	0	0	0
+BSC	11	1	0	0	0	0	0	0	0	0	0	0
+BTSs	11	1	0	0	0	0	0	0	0	0	0	0
+MSs	12	1	307	0	0	307	0	0	0	0	0	0
+BTS	12	1	291	0	0	291	0	0	0	0	0	0
+BSC	12	1	0	0	0	0	0	0	0	0	0	0
+BTSs	12	1	0	0	0	0	0	0	0	0	0	0
+MSs	13	1	296	0	0	296	0	0	0	0	0	0
+BTS	13	1	281	0	0	281	0	0	0	0	0	0
+BSC	13	1	0	0	0	0	0	0	0	0	0	0
+BTSs	13	1	0	0	0	0	0	0	0	0	0	0
+MSs	14	1	270	0	0	270	0	0	0	0	0	0
+BTS	14	1	258	0	0	258	0	0	0	0	0	0
+BSC	14	1	0	0	0	0	0	0	0	0	0	0
+BTSs	14	1	0	0	0	0	0	0	0	0	0	0
+MSs	15	1	312	0	0	312	0	0	0	0	0	0
+BTS	15	1	281	0	0	281	0	0	0	0	0	0
+BSC	15	1	0	0	0	0	0	0	0	0	0	0
+BTSs	15	1	0	0	0	0	0	0	0	0	0	0
+MSs	16	1	311	0	0	311	0	0	0	0	0	0
+BTS	16	1	292	0	0	292	0	0	0	0	0	0
+BSC	16	1	0	0	0	0	0	0	0	0	0	0
+BTSs	16	1	0	0	0	0	0	0	0	0	0	0
+MSs	17	1	282	0	0	282	0	0	0	0	0	0
+BTS	17	1	268	0	0	268	0	0	0	0	0	0
+BSC	17	1	0	0	0	0	0	0	0	0	0	0
+BTSs	17	1	0	0	0	0	0	0	0	0	0	0
+MSs	18	1	304	0	0	304	0	0	0	0	0	0
+BTS	18	1	294	0	0	294	0	0	0	0	0	0
+BSC	18	1	0	0	0	0	0	0	0	0	0	0
+BTSs	18	1	0	0	0	0	0	0	0	0	0	0
+MSs	19	1	300	0	0	300	0	0	0	0	0	0
+BTS	19	1	286	0	0	286	0	0	0	0	0	0
+BSC	19	1	0	0	0	0	0	0	0	0	0	0
+BTSs	19	1	0	0	0	0	0	0	0	0	0	0
+MSs	20	1	317	0	0	317	0	0	0	0	0	0
+BTS	20	1	309	0	0	309	0	0	0	0	0	0
+BSC	20	1	0	0	0	0	0	0	0	0	0	0
+BTSs	20	1	0	0	0	0	0	0	0	0	0	0
+
+Other transmission counters
+Link Name	Transmission	From Node	Replication	Frames resent	Frames lost
+UmX	X	MSs	1	0	0
+UmY	Y	BTS	1	0	0
+AbisX	X	BTSs	1	0	0
+AbisY	Y	BSC	1	0	0
+UmX	X	MSs	2	0	0
+UmY	Y	BTS	2	0	0
+AbisX	X	BTSs	2	0	0
+AbisY	Y	BSC	2	0	0
+UmX	X	MSs	3	0	0
+UmY	Y	BTS	3	0	0
+AbisX	X	BTSs	3	0	0
+AbisY	Y	BSC	3	0	0
+UmX	X	MSs	4	0	0
+UmY	Y	BTS	4	0	0
+AbisX	X	BTSs	4	0	0
+AbisY	Y	BSC	4	0	0
+UmX	X	MSs	5	0	0
+UmY	Y	BTS	5	0	0
+AbisX	X	BTSs	5	0	0
+AbisY	Y	BSC	5	0	0
+UmX	X	MSs	6	0	0
+UmY	Y	BTS	6	0	0
+AbisX	X	BTSs	6	0	0
+AbisY	Y	BSC	6	0	0
+UmX	X	MSs	7	0	0
+UmY	Y	BTS	7	0	0
+AbisX	X	BTSs	7	0	0
+AbisY	Y	BSC	7	0	0
+UmX	X	MSs	8	0	0
+UmY	Y	BTS	8	0	0
+AbisX	X	BTSs	8	0	0
+AbisY	Y	BSC	8	0	0
+UmX	X	MSs	9	0	0
+UmY	Y	BTS	9	0	0
+AbisX	X	BTSs	9	0	0
+AbisY	Y	BSC	9	0	0
+UmX	X	MSs	10	0	0
+UmY	Y	BTS	10	0	0
+AbisX	X	BTSs	10	0	0
+AbisY	Y	BSC	10	0	0
+UmX	X	MSs	11	0	0
+UmY	Y	BTS	11	0	0
+AbisX	X	BTSs	11	0	0
+AbisY	Y	BSC	11	0	0
+UmX	X	MSs	12	0	0
+UmY	Y	BTS	12	0	0
+AbisX	X	BTSs	12	0	0
+AbisY	Y	BSC	12	0	0
+UmX	X	MSs	13	0	0
+UmY	Y	BTS	13	0	0
+AbisX	X	BTSs	13	0	0
+AbisY	Y	BSC	13	0	0
+UmX	X	MSs	14	0	0
+UmY	Y	BTS	14	0	0
+AbisX	X	BTSs	14	0	0
+AbisY	Y	BSC	14	0	0
+UmX	X	MSs	15	0	0
+UmY	Y	BTS	15	0	0
+AbisX	X	BTSs	15	0	0
+AbisY	Y	BSC	15	0	0
+UmX	X	MSs	16	0	0
+UmY	Y	BTS	16	0	0
+AbisX	X	BTSs	16	0	0
+AbisY	Y	BSC	16	0	0
+UmX	X	MSs	17	0	0
+UmY	Y	BTS	17	0	0
+AbisX	X	BTSs	17	0	0
+AbisY	Y	BSC	17	0	0
+UmX	X	MSs	18	0	0
+UmY	Y	BTS	18	0	0
+AbisX	X	BTSs	18	0	0
+AbisY	Y	BSC	18	0	0
+UmX	X	MSs	19	0	0
+UmY	Y	BTS	19	0	0
+AbisX	X	BTSs	19	0	0
+AbisY	Y	BSC	19	0	0
+UmX	X	MSs	20	0	0
+UmY	Y	BTS	20	0	0
+AbisX	X	BTSs	20	0	0
+AbisY	Y	BSC	20	0	0
+
+Buffer packet counters
+Direction	Node	Number in group	Link	Replication	Accepted	Blocked	Preempting	Preempted	Exceed threshold	Rejected by threshold
+Input	MSs	1	Um	1	0	0				
+Output	MSs	1	Um	1	0	0				
+Input	BTS	1	Um	1	0	0				
+Output	BTS	1	Um	1	0	0				
+Input	BSC	1	Abis	1	1335	0				
+Output	BSC	1	Abis	1	0	0				
+Input	BTSs	1	Abis	1	0	0				
+Output	BTSs	1	Abis	1	1335	0				
+Input	MSs	1	Um	2	0	0				
+Output	MSs	1	Um	2	0	0				
+Input	BTS	1	Um	2	0	0				
+Output	BTS	1	Um	2	0	0				
+Input	BSC	1	Abis	2	1316	0				
+Output	BSC	1	Abis	2	0	0				
+Input	BTSs	1	Abis	2	0	0				
+Output	BTSs	1	Abis	2	1316	0				
+Input	MSs	1	Um	3	0	0				
+Output	MSs	1	Um	3	0	0				
+Input	BTS	1	Um	3	0	0				
+Output	BTS	1	Um	3	0	0				
+Input	BSC	1	Abis	3	1305	0				
+Output	BSC	1	Abis	3	0	0				
+Input	BTSs	1	Abis	3	0	0				
+Output	BTSs	1	Abis	3	1305	0				
+Input	MSs	1	Um	4	0	0				
+Output	MSs	1	Um	4	0	0				
+Input	BTS	1	Um	4	0	0				
+Output	BTS	1	Um	4	0	0				
+Input	BSC	1	Abis	4	1318	0				
+Output	BSC	1	Abis	4	0	0				
+Input	BTSs	1	Abis	4	0	0				
+Output	BTSs	1	Abis	4	1318	0				
+Input	MSs	1	Um	5	0	0				
+Output	MSs	1	Um	5	0	0				
+Input	BTS	1	Um	5	0	0				
+Output	BTS	1	Um	5	0	0				
+Input	BSC	1	Abis	5	1362	0				
+Output	BSC	1	Abis	5	0	0				
+Input	BTSs	1	Abis	5	0	0				
+Output	BTSs	1	Abis	5	1362	0				
+Input	MSs	1	Um	6	0	0				
+Output	MSs	1	Um	6	0	0				
+Input	BTS	1	Um	6	0	0				
+Output	BTS	1	Um	6	0	0				
+Input	BSC	1	Abis	6	1344	0				
+Output	BSC	1	Abis	6	0	0				
+Input	BTSs	1	Abis	6	0	0				
+Output	BTSs	1	Abis	6	1344	0				
+Input	MSs	1	Um	7	0	0				
+Output	MSs	1	Um	7	0	0				
+Input	BTS	1	Um	7	0	0				
+Output	BTS	1	Um	7	0	0				
+Input	BSC	1	Abis	7	1276	0				
+Output	BSC	1	Abis	7	0	0				
+Input	BTSs	1	Abis	7	0	0				
+Output	BTSs	1	Abis	7	1276	0				
+Input	MSs	1	Um	8	0	0				
+Output	MSs	1	Um	8	0	0				
+Input	BTS	1	Um	8	0	0				
+Output	BTS	1	Um	8	0	0				
+Input	BSC	1	Abis	8	1312	0				
+Output	BSC	1	Abis	8	0	0				
+Input	BTSs	1	Abis	8	0	0				
+Output	BTSs	1	Abis	8	1312	0				
+Input	MSs	1	Um	9	0	0				
+Output	MSs	1	Um	9	0	0				
+Input	BTS	1	Um	9	0	0				
+Output	BTS	1	Um	9	0	0				
+Input	BSC	1	Abis	9	1287	0				
+Output	BSC	1	Abis	9	0	0				
+Input	BTSs	1	Abis	9	0	0				
+Output	BTSs	1	Abis	9	1287	0				
+Input	MSs	1	Um	10	0	0				
+Output	MSs	1	Um	10	0	0				
+Input	BTS	1	Um	10	0	0				
+Output	BTS	1	Um	10	0	0				
+Input	BSC	1	Abis	10	1387	0				
+Output	BSC	1	Abis	10	0	0				
+Input	BTSs	1	Abis	10	0	0				
+Output	BTSs	1	Abis	10	1387	0				
+Input	MSs	1	Um	11	0	0				
+Output	MSs	1	Um	11	0	0				
+Input	BTS	1	Um	11	0	0				
+Output	BTS	1	Um	11	0	0				
+Input	BSC	1	Abis	11	1338	0				
+Output	BSC	1	Abis	11	0	0				
+Input	BTSs	1	Abis	11	0	0				
+Output	BTSs	1	Abis	11	1338	0				
+Input	MSs	1	Um	12	0	0				
+Output	MSs	1	Um	12	0	0				
+Input	BTS	1	Um	12	0	0				
+Output	BTS	1	Um	12	0	0				
+Input	BSC	1	Abis	12	1321	0				
+Output	BSC	1	Abis	12	0	0				
+Input	BTSs	1	Abis	12	0	0				
+Output	BTSs	1	Abis	12	1321	0				
+Input	MSs	1	Um	13	0	0				
+Output	MSs	1	Um	13	0	0				
+Input	BTS	1	Um	13	0	0				
+Output	BTS	1	Um	13	0	0				
+Input	BSC	1	Abis	13	1309	0				
+Output	BSC	1	Abis	13	0	0				
+Input	BTSs	1	Abis	13	0	0				
+Output	BTSs	1	Abis	13	1309	0				
+Input	MSs	1	Um	14	0	0				
+Output	MSs	1	Um	14	0	0				
+Input	BTS	1	Um	14	0	0				
+Output	BTS	1	Um	14	0	0				
+Input	BSC	1	Abis	14	1338	0				
+Output	BSC	1	Abis	14	0	0				
+Input	BTSs	1	Abis	14	0	0				
+Output	BTSs	1	Abis	14	1338	0				
+Input	MSs	1	Um	15	0	0				
+Output	MSs	1	Um	15	0	0				
+Input	BTS	1	Um	15	0	0				
+Output	BTS	1	Um	15	0	0				
+Input	BSC	1	Abis	15	1336	0				
+Output	BSC	1	Abis	15	0	0				
+Input	BTSs	1	Abis	15	0	0				
+Output	BTSs	1	Abis	15	1335	0				
+Input	MSs	1	Um	16	0	0				
+Output	MSs	1	Um	16	0	0				
+Input	BTS	1	Um	16	0	0				
+Output	BTS	1	Um	16	0	0				
+Input	BSC	1	Abis	16	1303	0				
+Output	BSC	1	Abis	16	0	0				
+Input	BTSs	1	Abis	16	0	0				
+Output	BTSs	1	Abis	16	1303	0				
+Input	MSs	1	Um	17	0	0				
+Output	MSs	1	Um	17	0	0				
+Input	BTS	1	Um	17	0	0				
+Output	BTS	1	Um	17	0	0				
+Input	BSC	1	Abis	17	1252	0				
+Output	BSC	1	Abis	17	0	0				
+Input	BTSs	1	Abis	17	0	0				
+Output	BTSs	1	Abis	17	1252	0				
+Input	MSs	1	Um	18	0	0				
+Output	MSs	1	Um	18	0	0				
+Input	BTS	1	Um	18	0	0				
+Output	BTS	1	Um	18	0	0				
+Input	BSC	1	Abis	18	1261	0				
+Output	BSC	1	Abis	18	0	0				
+Input	BTSs	1	Abis	18	0	0				
+Output	BTSs	1	Abis	18	1261	0				
+Input	MSs	1	Um	19	0	0				
+Output	MSs	1	Um	19	0	0				
+Input	BTS	1	Um	19	0	0				
+Output	BTS	1	Um	19	0	0				
+Input	BSC	1	Abis	19	1351	0				
+Output	BSC	1	Abis	19	0	0				
+Input	BTSs	1	Abis	19	0	0				
+Output	BTSs	1	Abis	19	1351	0				
+Input	MSs	1	Um	20	0	0				
+Output	MSs	1	Um	20	0	0				
+Input	BTS	1	Um	20	0	0				
+Output	BTS	1	Um	20	0	0				
+Input	BSC	1	Abis	20	1347	0				
+Output	BSC	1	Abis	20	0	0				
+Input	BTSs	1	Abis	20	0	0				
+Output	BTSs	1	Abis	20	1347	0				

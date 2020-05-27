@@ -27,8 +27,8 @@ CHANNEL_ID = 38629;
 % tal y como se ha programado la lógica que interpreta las fechas no
 % soportamos que el rango incluya años diferentes todavía...
 
-START_DAY = "03-28-2018";
-END_DAY  = "04-03-2018";
+START_DAY = "03-28-2020";
+END_DAY  = "04-3-2020";
 
 % Genera dos matrices, start_day y end_day, que contienen las fechas de arriba
 % en formato ISO que es el que debemos usar para consultar con bases de datos

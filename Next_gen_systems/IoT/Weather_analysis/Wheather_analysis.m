@@ -138,30 +138,3 @@ xlabel('Hora del día')
 ylabel(camposDisponibles(4))
 title('Datos originales')
 grid on
-
-% datos entre las 0:00 del 4 de enero y las 0:00 del 5 de enero (día 4 de junio)
-[d,t,ci] = thingSpeakRead(12397,'DateRange',[datetime('Jan 4, 2015'),datetime('Jan 5, 2015')]);
-tempF = d(:,4); % campo 4 es temperatura en grados F
-tempC = (5/9)*(tempF-32); % conversión a Celsius
-tempCHora = downsample(tempC,60);
-tHora = downsample(t,60);
-
-num_muestras = length(tempCHora) - 1;
-
-acum = [];
-
-for muestra = 1:num_muestras
-    dif = tempCHora(muestra + 1) - tempCHora(muestra);
-    
-    acum = [acum; dif];
-end
-
-tHora(length(tempCHora)) = [];
-
-figure(6)
-plot(tHora, acum,'-r');
-xlabel('Hora')
-ylabel('Diferencia temperatura')
-grid on
-datetick
-title('Diferencia de temperatura 4 de enero de 2015')

@@ -2,7 +2,7 @@
 # We need to recompile several times so that we can
 # fix forward references
 
-TRASH = *.aux *.log
+TRASH = *.aux *.log *.toc
 
 all: designing_an_ict
 

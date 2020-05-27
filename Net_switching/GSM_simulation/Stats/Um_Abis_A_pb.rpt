@@ -1,0 +1,280 @@
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     1
+
+                                    GSM_net                                     
+
+                       CALL SOURCES: BLOCKED CALL COUNTS                        
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                        CALLS    CALLS  BLOCK       HOPS
+  DESTINATION LIST                        ATTEMPTD  RETRY  PROB    AVG     MAX
+________________________________________  ________  _____  _____  ______  _____
+
+MS1 / call Cell:
+  MSC                                         6703      0  0.073     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6703      0  0.073     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS1 (TOTAL)                                 6703      0  0.073     3.0      3
+
+MS2 / call Cell:
+  MSC                                         6695      0  0.078     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6695      0  0.078     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS2 (TOTAL)                                 6695      0  0.078     3.0      3
+
+MS3 / call Cell:
+  MSC                                         6701      0  0.083     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6701      0  0.083     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS3 (TOTAL)                                 6701      0  0.083     3.0      3
+
+MS4 / call Cell:
+  MSC                                         6524      0  0.067     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6524      0  0.067     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS4 (TOTAL)                                 6524      0  0.067     3.0      3
+
+MS5 / call Cell:
+  MSC                                         6601      0  0.080     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6601      0  0.080     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS5 (TOTAL)                                 6601      0  0.080     3.0      3
+
+MS6 / call Cell:
+  MSC                                         6602      0  0.070     3.0      3
+                                          ________  _____  _____  ______  _____
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     2
+
+                                    GSM_net                                     
+
+                       CALL SOURCES: BLOCKED CALL COUNTS                        
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                        CALLS    CALLS  BLOCK       HOPS
+  DESTINATION LIST                        ATTEMPTD  RETRY  PROB    AVG     MAX
+________________________________________  ________  _____  _____  ______  _____
+
+  SUBTOTAL                                    6602      0  0.070     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS6 (TOTAL)                                 6602      0  0.070     3.0      3
+
+MS7 / call Cell:
+  MSC                                         6764      0  0.084     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6764      0  0.084     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS7 (TOTAL)                                 6764      0  0.084     3.0      3
+
+MS8 / call Cell:
+  MSC                                         6739      0  0.074     3.0      3
+                                          ________  _____  _____  ______  _____
+  SUBTOTAL                                    6739      0  0.074     3.0      3
+
+                                          ________  _____  _____  ______  _____
+  MS8 (TOTAL)                                 6739      0  0.074     3.0      3
+
+                                          ________  _____  _____  ______  _____
+                                          ________  _____  _____  ______  _____
+  ** T O T A L S  **                         53329      0  0.076     3.0      3
+
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     3
+
+                                    GSM_net                                     
+
+                     CALL SOURCES: DISCONNECTED CALL COUNTS                     
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                           CALLS     CALLS    CALLS   CALLS
+  DESTINATION LIST                      PRI  ATTEMPTD  CARRIED   DISCON  REROUT
+______________________________________  ___  ________  ________  ______  ______
+
+MS1 / call Cell:                          1
+  MSC                                            6703      6216       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6703      6216       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS1 (TOTAL)                                    6703      6216       0       0
+
+MS2 / call Cell:                          1
+  MSC                                            6695      6170       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6695      6170       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS2 (TOTAL)                                    6695      6170       0       0
+
+MS3 / call Cell:                          1
+  MSC                                            6701      6143       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6701      6143       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS3 (TOTAL)                                    6701      6143       0       0
+
+MS4 / call Cell:                          1
+  MSC                                            6524      6084       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6524      6084       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS4 (TOTAL)                                    6524      6084       0       0
+
+MS5 / call Cell:                          1
+  MSC                                            6601      6074       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6601      6074       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS5 (TOTAL)                                    6601      6074       0       0
+
+MS6 / call Cell:                          1
+  MSC                                            6602      6139       0       0
+                                        ___  ________  ________  ______  ______
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     4
+
+                                    GSM_net                                     
+
+                     CALL SOURCES: DISCONNECTED CALL COUNTS                     
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                           CALLS     CALLS    CALLS   CALLS
+  DESTINATION LIST                      PRI  ATTEMPTD  CARRIED   DISCON  REROUT
+______________________________________  ___  ________  ________  ______  ______
+
+  SUBTOTAL                                       6602      6139       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS6 (TOTAL)                                    6602      6139       0       0
+
+MS7 / call Cell:                          1
+  MSC                                            6764      6195       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6764      6195       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS7 (TOTAL)                                    6764      6195       0       0
+
+MS8 / call Cell:                          1
+  MSC                                            6739      6241       0       0
+                                        ___  ________  ________  ______  ______
+  SUBTOTAL                                       6739      6241       0       0
+
+                                        ___  ________  ________  ______  ______
+  MS8 (TOTAL)                                    6739      6241       0       0
+
+                                        ___  ________  ________  ______  ______
+                                        ___  ________  ________  ______  ______
+  ** T O T A L S  **                            53329     49262       0       0
+
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     5
+
+                                    GSM_net                                     
+
+                      CALL SOURCES: PREEMPTED CALL COUNTS                       
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                                CALLS     CALLS      CALLS
+  DESTINATION LIST                          PRI  ATTEMPTED  CARRIED   PREEMPTED
+__________________________________________  ___  _________  ________  _________
+
+MS1 / call Cell:                              1
+  MSC                                                 6703      6216          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6703      6216          0
+
+                                            ___  _________  ________  _________
+  MS1 (TOTAL)                                         6703      6216          0
+
+MS2 / call Cell:                              1
+  MSC                                                 6695      6170          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6695      6170          0
+
+                                            ___  _________  ________  _________
+  MS2 (TOTAL)                                         6695      6170          0
+
+MS3 / call Cell:                              1
+  MSC                                                 6701      6143          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6701      6143          0
+
+                                            ___  _________  ________  _________
+  MS3 (TOTAL)                                         6701      6143          0
+
+MS4 / call Cell:                              1
+  MSC                                                 6524      6084          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6524      6084          0
+
+                                            ___  _________  ________  _________
+  MS4 (TOTAL)                                         6524      6084          0
+
+MS5 / call Cell:                              1
+  MSC                                                 6601      6074          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6601      6074          0
+
+                                            ___  _________  ________  _________
+  MS5 (TOTAL)                                         6601      6074          0
+
+MS6 / call Cell:                              1
+  MSC                                                 6602      6139          0
+                                            ___  _________  ________  _________
+
+Compuware COMNET III  Release 2.5.2.814  Mon Apr 13 17:28:59 2020   PAGE     6
+
+                                    GSM_net                                     
+
+                      CALL SOURCES: PREEMPTED CALL COUNTS                       
+
+                  REPLICATION 1 FROM 8000.0 TO 88000.0 SECONDS                  
+
+ORIGIN / CALL NAME:                                CALLS     CALLS      CALLS
+  DESTINATION LIST                          PRI  ATTEMPTED  CARRIED   PREEMPTED
+__________________________________________  ___  _________  ________  _________
+
+  SUBTOTAL                                            6602      6139          0
+
+                                            ___  _________  ________  _________
+  MS6 (TOTAL)                                         6602      6139          0
+
+MS7 / call Cell:                              1
+  MSC                                                 6764      6195          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6764      6195          0
+
+                                            ___  _________  ________  _________
+  MS7 (TOTAL)                                         6764      6195          0
+
+MS8 / call Cell:                              1
+  MSC                                                 6739      6241          0
+                                            ___  _________  ________  _________
+  SUBTOTAL                                            6739      6241          0
+
+                                            ___  _________  ________  _________
+  MS8 (TOTAL)                                         6739      6241          0
+
+                                            ___  _________  ________  _________
+                                            ___  _________  ________  _________
+  ** T O T A L S  **                                 53329     49262          0

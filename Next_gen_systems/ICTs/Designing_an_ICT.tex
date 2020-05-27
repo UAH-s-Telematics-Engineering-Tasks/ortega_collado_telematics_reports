@@ -6,27 +6,35 @@
 % Make margins bigger
 \usepackage{geometry}
 \geometry{
- a4paper,
-%  left = 19mm,
-%  right = 19mm,
-%  top = 15mm,
- }
+	a4paper,
+}
 
- % Insert images
+% Change the language for the captions and default names
+\renewcommand{\figurename}{Figura}
+
+% Change the language for the table of contens
+\renewcommand{\contentsname}{Contenidos}
+
+% Insert images
 \usepackage{graphicx}
 % Look for images here
 \graphicspath{{Img/}}
 
-\title{Diseñando la ICT de un chalet}
-\author{Carlos Ortega Marchamalo \& Pablo Collado Soto}
+\title{Diseñando la ICT de un chalet\thanks{Proudly made with \LaTeX}}
+\author{Carlos Ortega Marchamalo \& Pablo Collado Soto \\ \\ \textbf{\texttt{Sistemas Inteligentes y Sostenibles de Nueva Generación}} \\ \\ \textbf{Universidad de Alcalá}}
 \date{}
 
 \begin{document}
-
 	\maketitle
 
+	\newpage
+
+	\tableofcontents
+
+	\newpage
+
 	\section{Introducción}
-		Antes de inventar una vivienda para posteriormente diseñar su Infraestructura Común de Telecomunicación o de escoger una ICT ya diseñada para analizarla hemos decidido estudiar una instalación real. La ICT a la que nos atendremos durante el informe pertenece a una vivienda unifamiliar de la Urbanización Sotolargo en la Provincia de Guadalajara. Hemos optado por estudiar la ICT de un chalet en vez de la de un bloque de edificios para profundizar en este tipo de inmueble ya que es el que menos hemos estudiado en las clases teóricas de la asignatura. Asimismo, ésto nos permite acercarnos a una situación real que en ocasiones queda muy lejos de las aulas. Con ello esperamos ser capaces de tener en cuenta las limitaciones que nos impiden aplicar directamente la teoría al mundo real.\\
+		Antes de inventar una vivienda para posteriormente diseñar su Infraestructura Común de Telecomunicación o de escoger una ICT ya diseñada para analizarla hemos decidido estudiar una instalación real. La ICT a la que nos atendremos durante el informe pertenece a una vivienda unifamiliar de la Urbanización Sotolargo en la Provincia de Guadalajara. Hemos optado por estudiar la ICT de un chalet en vez de la de un bloque de edificios para profundizar en este tipo de inmueble ya que es el que menos hemos estudiado en las clases teóricas de la asignatura. Asimismo, esto nos permite acercarnos a una situación real que en ocasiones queda muy lejos de las aulas. Con ello esperamos ser capaces de tener en cuenta las limitaciones que nos impiden aplicar directamente la teoría al mundo real.\\
 
 		Además de estudiar la \textbf{ICT} propiamente dicha hemos decidido también abordar la red telefónica y de datos. Al situarse el inmueble en una zona alejada de grandes ciudades veremos que el acceso es todavía a través de una línea ADSL (\textbf{A}bonado \textbf{Digital} \textbf{A}simétrico) por lo que lo compararemos con los accesos actuales basados en su mayoría en fibra óptica.\\
 
@@ -120,21 +128,21 @@
 		\subsection{Frecuencias, ganancias y $decibelios$}
 			Los amplificadores son por definición circuitos activos (contienen elementos activos como transistores) ya que nos permiten manejar ganancias mayores que la unidad. Recordemos la definición de ganancia de un circuito:
 
-			$$Sean v_i, v_o\ tensiones \rightarrow G = \frac{v_o}{v_i}$$
+			$$Sean\ v_i, v_o\ tensiones \rightarrow G = \frac{v_o}{v_i}$$
 
 			Esto es, la ganancia es la relación entre las señales de entrada a un circuito y su salida. En este caso $v_i$ sería la señal de entrada al amplificador y $v_o$ la señal a la salida. De lo anterior se sigue que $G$ es un valor adimensional que caracteriza el amplificador utilizado. A pesar de lo aquí comentado debemos señalar que las señales $v_x$ son en general funciones del tiempo ($v(t)$) con lo que llevan asociado un espectro $V(w) = \mathcal{F}\{v(t)\}$ lo que supone una variación de esta ganancia con la frecuencia de las señales que manejos. Esto se resume estableciendo que $G \neq\ cte$ sino que es una función de la frecuencia $G(w)$.\\
 
 			Dada esta variabilidad de la ganancia los fabricantes acompañan sus productos de un ancho de banda de trabajo para sus aparatos. Esto es una banda de frecuencias para las que se puede asumir que $G =\ cte$. Estas ganancias son las que nosotros veremos en las hojas del fabricante, en este caso Televés, cuando analicemos la ICT.\\
 
-			No obstante al acudir a las hojas de características de los equipos nos percataremos de que la unidad de esta ganancia son $dB$, es decir, decibelios. A pesar de toda la confusión que éstas generan (por lo menos a nosotros) las unidades logarítmicas están pensadas para facilitar el manejo de cantidades grandes. Dado que el $Belio$ es una unidad demasiado grande comúnmente trabajaremos con el $decibelio$. Al igual que con otras unidades se cumple que $1\ Belio =\ 10\ decibelios$. Con todo, las ganancias que podemos esperar son del tipo:
+			No obstante al acudir a las hojas de características de los equipos nos percataremos de que la unidad de esta ganancia son $dB$, es decir, decibelios. A pesar de toda la confusión que estas generan (por lo menos a nosotros) las unidades logarítmicas están pensadas para facilitar el manejo de cantidades grandes. Dado que el $Belio$ es una unidad demasiado grande comúnmente trabajaremos con el $decibelio$. Al igual que con otras unidades se cumple que $1\ Belio =\ 10\ decibelios$. Con todo, las ganancias que podemos esperar son del tipo:
 
 			$$G(dB) = 10 \cdot log(\frac{V_o}{V_i})$$
 
-			Nos damos cuenta en un principio de que los decibelios son en realidad adimensionales al igual que otras unidades como los $radianes$. Al final estamos comparando dos magnitudes. Además, dadas las propiedades de los logaritmos veremos que en vez de multiplicar por las ganancias podemos sumar tensiones y decibelios siempre que las tensiones también estén expresadas en unidades logarítmicas. Ésto se sigue de la definición misma de la ganancia que hemos visto anteriormente:
+			Nos damos cuenta en un principio de que los decibelios son en realidad adimensionales al igual que otras unidades como los $radianes$. Al final estamos comparando dos magnitudes. Además, dadas las propiedades de los logaritmos veremos que en vez de multiplicar por las ganancias podemos sumar tensiones y decibelios siempre que las tensiones también estén expresadas en unidades logarítmicas. Esto se sigue de la definición misma de la ganancia que hemos visto anteriormente:
 
 			$$G(dB) = 10 \cdot log(\frac{V_o}{1\ V}) - 10 \cdot log(\frac{V_i}{1\ V}) \rightarrow G(dB) = V_o(dBV) - V_i(dBV)$$
 
-			Así llegamos a que $V_o(dBV) = G(dB) + V_i(dBV)$. Con este pequeño desarrollo explicamos el por qué de los cálculos que iremos haciendo a lo largo del informe. No debemos olvidar que podemos modelar cualquier línea de transmisión como los cables coaxiales de nuestra instalación como si se tratara de una "caja negra" con una relación de transmisión $\frac{V_o}{V_i}$ idéntica a la de este caso. Es por ello que si entendemos las atenuaciones como ganancias negativas el procedimiento para calcular todas las pérdidas de señal a lo largo de la instalación es análogo a éste. Esperamos haber disipado las dudas que podríamos tener sobre la forma de operar con estas unidades que pueden jugarnos una mala pasada si no tenemos cuidado...\\
+			Así llegamos a que $V_o(dBV) = G(dB) + V_i(dBV)$. Con este pequeño desarrollo explicamos el por qué de los cálculos que iremos haciendo a lo largo del informe. No debemos olvidar que podemos modelar cualquier línea de transmisión como los cables coaxiales de nuestra instalación como si se tratara de una "caja negra" con una relación de transmisión $\frac{V_o}{V_i}$ idéntica a la de este caso. Es por ello que si entendemos las atenuaciones como ganancias negativas el procedimiento para calcular todas las pérdidas de señal a lo largo de la instalación es análogo a este. Esperamos haber disipado las dudas que podríamos tener sobre la forma de operar con estas unidades que pueden jugarnos una mala pasada si no tenemos cuidado...\\
 
 		\subsection{¿Qué son esos equipos?}
 			Si queríamos dejar algo claro es que elementos activos como los amplificadores necesitan un lugar del que sacar la potencia que "inyectan" en su salida. Esto es, necesitamos alimentarlos. Es aquí donde se encuadra la fuente de alimentación que incluíamos en la relación de equipos. Este aparato se encargará de suministrar la alimentación (una tensión continua) requerida por el amplificador y por la antena. Además tal y como vemos en la figura \ref{f:schematic} se va a encargar de recibir esta señal amplificada.\\
@@ -156,10 +164,10 @@
 			En el apartado anterior hemos asumido que la vivienda contaba con $4$ tomas sin especificar su localización. Para facilitar el desarrollo de esta sección adjuntamos una fotografía de la planta en la figura \ref{f:p_acotada}. En ella aparecen ligeramente marcadas las estancias de interés así como los lugares aproximados en los que se encuentran las tomas. Si bien es cierto que se muestran las estancias en las que están las tomas no es tan claro dirimir qué son esas estancias. Es por ello que adjuntamos esta información en una pequeña lista:
 
 			\begin{itemize}
-				\item \textbf{A} -> Habitación
-				\item \textbf{B} -> Cocina
-				\item \textbf{C} -> Zona Común
-				\item \textbf{D} -> Salón
+				\item \textbf{A} -- Habitación
+				\item \textbf{B} -- Cocina
+				\item \textbf{C} -- Zona Común
+				\item \textbf{D} -- Salón
 			\end{itemize}
 
 			\begin{figure}
@@ -183,7 +191,7 @@
 			Observamos que si se invierte el espectro la señal que recuperamos está invertida. Si aplicamos un inversor, una configuración muy típica con amplificadores operacionales, podemos recuperar esta señal sin ningún tipo de problema.
 
 		\subsection{Red Telefónica y de Datos}
-			Ya en la introducción habíamos señalado que el acceso telefónico y de datos del inmueble estudiado se sustentaba sobre una línea ADSL. Esta conexión se compone de un par trenzado de cobre que une el punto de terminación de red de cada vivienda con el \textbf{DSLAM} del operador. Este \textbf{DSLAM} "traduce" las señales analógicas del cable de cobre a señalización digital que luego se cursará por Internet. Si prestamos atención a la red telefónica veremos que la señal de voz es posteriormente desviada a la red orientada a circuitos que cursa el tráfico de voz. En definitiva aunque el tráfico de voz y datos se curse por los enlaces de cobre debemos saber que éste luego se separa en función de su naturaleza.\\
+			Ya en la introducción habíamos señalado que el acceso telefónico y de datos del inmueble estudiado se sustentaba sobre una línea ADSL. Esta conexión se compone de un par trenzado de cobre que une el punto de terminación de red de cada vivienda con el \textbf{DSLAM} del operador. Este \textbf{DSLAM} "traduce" las señales analógicas del cable de cobre a señalización digital que luego se cursará por Internet. Si prestamos atención a la red telefónica veremos que la señal de voz es posteriormente desviada a la red orientada a circuitos que cursa el tráfico de voz. En definitiva aunque el tráfico de voz y datos se curse por los enlaces de cobre debemos saber que este luego se separa en función de su naturaleza.\\
 
 			Nos podemos preguntar ahora cómo es posible que 2 tráficos totalmente distintos convivan en un solo conductor. La respuesta está en el dominio de la frecuencia. La señal que viaja por el cable sería:
 
@@ -312,6 +320,8 @@
 
 			Si queremos ser estrictos debemos calcular estas atenuaciones en dos frecuencias significativas dentro de la región \textbf{UHF} en la que estmos trabajando. Ya en la introducción comentábamos que la region anterior comprendía $2$ bandas: \textit{BIV} y \textit{BV}. Tal y como se observa tenemos $2$ fuentes principales de atenuación. Por un lado los cables coaxiales atentan contra la señal de manera proporcional a su longitud. Observamos después que los repartidores tienen también una incidencia negativa sobre la integridad del nivel deseado.\\
 
+			Además nos gustaría comentar un poco la extraña decisión de diseño que se ha llevado a cabo. Observamos cómo la \texttt{toma 1} que es la más cercana al registro no sufre las pérdidas de inserción de la \texttt{PAU}. Lo "normal" sería que la toma que no conectamos a través de este aparato sea la que más alejada está del registro en un intento de equilibrar las atenuaciones. No obstante y juzgando por la dirección de los coaxiales al entrar en el tabique la instalación parecía ser la que hemos descrito. Al no poder levantar el suelo para observar el recorrido de estos cables nos debemos conformar con nuestra intuición... Esto suscita un aspecto que a veces nos pasa desapercibido y es que por mucho que la ley dictamine una serie de protocolos muchas veces estos no se siguen al pie de la letra en instalaciones reales. Nos puede interesar más que una instalación sea sencilla que que cumpla con la normativa de manera estricta siempre y cuando se mantengan unos mínimos como son los niveles de señal en las tomas. Simplemente queríamos comentar este aspecto ya que, tal y como decíamos, muchas veces no somos conscientes de lo diferentes que pueden llegar a ser los escenarios teóricos y los reales.\\
+
 			Sabemos que las pérdidas son una función de la frecuencia. Al estar analizando un rango y no una frecuencia puntual podríamos pensar que estas atenuaciones variarán en función de qué referencia tomemos. Si bien esto es cierto los catálogos suelen ofrecer la atenuación de sus equipos para rangos de frecuencias como el de la televisión digital con lo que estas pérdidas serán contantes en toda la ragión \textbf{UHF}. Lo mismo no es cierto para los coaxiles, aprecuando como cabría esperar una mayor atenuación a medida que incrementa la frecuencia. Es por esto que especificábamos que las atenuaciones se daban para una frecuencia de $800\ MHz$. Si bien este no es el límite estricto de la \textit{BV} es el que se asume al analizar este tipo de instalaciones. Podríamos haber escogido la atenuación a $500\ MHz$ ya que también se incluye en el rango de interés pero estaríamos cometiendo un error ya que no estaríamos trabajando con el peor caso posible y por tanto corremos el riesgo de infradimensionar nuestro sistema.\\
 
 			Debemos señalar que tal y como habíamos comentado los valores que estamos empleando son los del catálogo facilitado en la web de la asignatura. Hemos querido cerciorarnos de que estos valores son correctos y es por ello que hemos tratado de obtener lo mismo empleando el programa de diseño de \textbf{ICT}s \textit{Cast 60}. Las medidas que hemos obtenido en esta herramienta son coherentes con las derivadas a partir del catálogo pero no exactamente iguales. Los valores internos que emplea este programa son a veces ligeramente distintos de los que se proporcionan en otras fuentes y debemos tolerarlos ya que las características de sus componentes no se pueden alterar. Más delante incluimos una tabla con estos valores en los que se observan estas ligeras desviaciones.\\
@@ -328,8 +338,8 @@
 			Gracias a esta herramienta hemos obtenido estas atenuaciones teniendo en cuenta una frecuencia de $500\ MHz$ y hemos adjuntado estas nuevas medidas así como las proporcionadas por \textit{Cast 60} para $800\ MHz$ en una tabla que facilita su comparación. Hemos decidido no incluir los cálculos detallados de estos últimos valores porque son totalmente análogos a los anteriores teniendo en cuenta las siguientes atenuaciones de los coaxiales:
 
 			\begin{itemize}
-				\item Coaxial 2138 -> 14 dB/m @ 500 MHz
-				\item Coaxial 2142 -> 12 dB/m @ 500 MHz
+				\item Coaxial 2138 -- 14 dB/m @ 500 MHz
+				\item Coaxial 2142 -- 12 dB/m @ 500 MHz
 			\end{itemize}
 
 			Con esto, llegamos a los siguientes resultados para las atenuaciones en toma:
@@ -350,7 +360,7 @@
 				\end{tabular}
 			\end{center}
 
-			Si bien se observa una ligera desviación en medidas coma la de la tercera toma donde comparamos los $14.21\ dB$ de \textit{Cast 60} con los $14.1578\ dB$ obtenidos teóricamente suponiendo esto un error de apenas $5$ centésimas que supone un factor de $1.012$ en unidades lineales. Esta magnitud se sigue de la definición misma de  las unidades logarítmicas:
+			Si bien se observa una ligera desviación en medidas coma la de la tercera toma donde comparamos los $14.21\ dB$ de \textit{Cast 60} con los $14.1578\ dB$ obtenidos teóricamente suponiendo esto un error de apenas $5$ centésimas que supone un factor de $1.012$ en unidades lineales. Esta magnitud se sigue de la definición misma de las unidades logarítmicas:
 
 			$$5 \cdot 10^{-2} = 10 \cdot log(\frac{L_{soft}}{L_{theo}}) \rightarrow \frac{L_{soft}}{L_{theo}} = 10^{5 \cdot 10^{-3}} \approx 1.012$$
 
@@ -359,24 +369,38 @@
 			Con las atenuaciones claras pasamos a comprobar si este nivel es aceptable para una instalación conforme a las normas establecidas.
 
 		\subsection{Niveles en toma y amplificación de la entrada}
-			Al no poder acceder a la antena ni disponer del equipo necesario para obtener el nivel de señal a la entrada hemos optado por suponer un valor de $60\ dB\mu V$ tal y como venimos haciendo en las clases de teoría. Siguiendo también la misma lógica de diseño vamos a diseñar teniendo en cuenta la menor atenuación para la amplificación de cabecera en consecuencia. La ley establece un nivel de entre $47$ y $70 dB\mu V$ en toma. Sabiendo que la menor atenuación que podemos tener se da para la \textit{BIV} ajustaremos la señal de tal manera que:
+			A la luz de todo el diseño solo nos queda comentar las características de nuestro amplificiador de cabecera. Teniendo en cuenta que la ley establece un nivel en el rango de los $[47,\ 70]\ dB\mu V$ en toma debemos averiguar nuestra mínima atenuación para poder diseñar contra ese límite. Así, tal y como comentábamos la menor atenuación será de $5,97\ dB$ en la \texttt{toma 1} para la \textit{BIV} tal y como se obtiene del programa \textit{Cast60}. Aplicando la siguiente expresión:
 
 			$$V_{amp}(dB\mu V) = 70 dB\mu V + L_{min}(dB)$$
 
-			De acuerdo con \textit{Cast 60} la menor atenuación se obtiene para la \textit{BIV} en la \texttt{Toma 1} con lo que la salida del amplificador debe ser de $75,97 dB\mu V$. Teniendo pues una entrada de $60 dB\mu V$ el amplificador debería aportar $15,97\ dB$. Su ganancia es de $40\ dB$ sin embargo con lo que debemos atenuar la señala a la salida. Elegimos atenuar una señal sobreamplificada en aras de aumentar la relación señal ruido pues al ser el amplificador un dispositivo activo introducirá un ruido que nos afectará menos cuanto mayor sea la señal de entrada. Al ser el atenuador un dispositivo pasivo (solo tiene resistencias, bobinas y condensadores) no introducirá ruido alguno con lo que no empeorará esta relación. Las especificaciones de nuestro equipo permiten regular la ganancia para que esté en el rango $[40,\ 25]\ dB$.\\
+			Observamos que la salida del amplificador debería ser $V_{amp}(db\mu V) = 75,97\ dB\mu V$. Este nivel es el máximo admisible para nuestra instalación con lo que nos aseguramos de que los niveles sigan siendo válidos aún en las tomas que sufren una mayor atenuación.\\
 
-			No obstante vemos que con esto no es suficiente ya que para una ganancia $G = 25\ dB$ en la toma con la menor atenuación tendríamos un nivel de $60\ db\mu V + 25\ db - 5.97\ dB = 79.03\ dB > 70\ dB$. \textbf{¿Por qué pasa esto?, ¿no hemos considerado algo?, ¿puede que estemos usando un datasheet que no es?, el equipo es antiguo...}.\\
+			Según los catálogos, la ganancia de nuestro amplificador de cabecera (el modelo $5356$) es de $40\ dB$. No obstante tenemos una atenuación regulable de hasta $15\ dB$ lo que supone que la ganancia de nuestro amplificador va a encontrarse en el rango: $G \in [25,\ 40]\ dB$. Donde $25 = 40 - 15$, es decir, sería el factor de amplificación con la mayor atenuación posible. Con esto en mente, nuestra señal de entrada oscilará entre los valores que vienen definidos por las siguientes expresiones:
 
-			A pesar de lo anterior el programa \textit{Cast 60} valida la \textbf{ICT} que aparece en la figura \ref{f:cast60}.\\
+			$$V_{in_{MAX}} = V_{amp_{MAX}} - G_{min} = 75,97\ dB\mu V - 25\ dB = 50,97\ dB\mu V$$
+			$$V_{in_{min}} = V_{amp_{MAX}} - G_{MAX} = 75,97\ dB\mu V - 40\ dB = 35,97\ dB\mu V$$
+
+			En otras palabras, la señal a la entrada (esto es, la captada por la antena) pertenecerá al intervalo $V_{in} \in [35,97,\ 50,97]\ dB\mu V$. Sin tener acceso a la antena ni al equipo especializado que se requiere para medir estos niveles todo lo que podemos hacer es obtener el rango de niveles que puede presentar la señal a la entrada... A la hora de instalar esta infraestructura los técnicos seguramente variarían la atenuación hasta que la señal de \texttt{TV} se viera correctamente en la propia televisión.\\
+
+			Con todo, observamos cómo el programa \textit{Cast 60} valida la \textbf{ICT} que aparece en la figura \ref{f:cast60}.\\
 
 			Atendiendo a la figura de ruido del amplificador asistimos pues a una relación señal ruido ($SNR$) de:
 
 			$$SNR = 60\ dB\mu V - 5.5\ dB - 2.8\ dB = 51.7\ dB$$
 
-			\textbf{NOTA: Creemos que el $2.8\ dB$ se relaciona con el ruido aditivo Gaussiano del canal. ¿Es eso cierto?}
+			% \textbf{NOTA: Creemos que el $2.8\ dB$ se relaciona con el ruido aditivo Gaussiano del canal. ¿Es eso cierto?}
+
+			Finalmente incluimos una imagen en la que se aprecia el amplificador de cabecera conectado al mástil de nuestra antena en la figura \ref{f:amp_cabecera}.
+
+			\begin{figure}[hbt!]
+				\centering
+				\includegraphics[width=0.5\linewidth]{amp_cabecera.jpg}
+				\caption{Amplificador de cabecera (en naranja)}
+				\label{f:amp_cabecera}
+			\end{figure}
 
 	\section{Conclusión}
-		A lo largo de este informe hemos recorrido la anatomía de las infraestructuras de telecomunicación típica de las viviendas unifamiliares. Ésto nos ha servido no solo para ahondar en los conceptos vistos en clase sino también para obsevar cómo conviven las infraestructuras de datos, voz y televisión así como lo sencillas que resultan estas instalaciones en comparación con las estudiadas para bloques de pisos.\\
+		A lo largo de este informe hemos recorrido la anatomía de las infraestructuras de telecomunicación típica de las viviendas unifamiliares. Esto nos ha servido no solo para ahondar en los conceptos vistos en clase sino también para obsevar cómo conviven las infraestructuras de datos, voz y televisión así como lo sencillas que resultan estas instalaciones en comparación con las estudiadas para bloques de pisos.\\
 
 		Esperamos haber aportado un toque original a este tema a través del análisis del tipo menos común de \textbf{ICT} que no por ello supone un menor reto ni un menor número de aspectos interesantes. Esperamos haber sido capaces de captar estos detalles a la vez que excavábamos un poco más en la dimensión más teórica de este tema como puede ser el dominio frecuencial y la definición y manejo de las unidades logarítmicas.\\
 \end{document}
